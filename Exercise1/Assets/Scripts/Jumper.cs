@@ -11,7 +11,7 @@ public class Jumper : MonoBehaviour
     const float MaxY = 4;
 
     // timer support
-    const float totalJumpDelaySeconds = 1;
+    const float totalJumpDelaySeconds = 0.1f;
     float elapsedJumpDelaySeconds = 0;
 
     // Update is called once per frame
